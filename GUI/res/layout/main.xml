@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/hello"
+    />
+	<Button android:text="Save" android:id="@+id/btnSave" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:text="Open" android:id="@+id/btnOpen" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<ImageButton android:id="@+id/btnImage" android:layout_height="50px" android:layout_width="fill_parent" android:src="@drawable/autoicon" android:onClick="funOfImageBtn"/>
+	<EditText android:id="@+id/ET1" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+	<CheckBox android:text="CheckBox" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="funOfCheckBox"></CheckBox>
+	<CheckBox style="?android:attr/starStyle" android:text="CheckBox" android:id="@+id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	
+	<RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<RadioButton android:id="@+id/radio0" android:layout_height="wrap_content" android:text="RadioButton" android:layout_width="wrap_content" android:checked="true"></RadioButton>
+		<RadioButton android:id="@+id/radio1" android:layout_height="wrap_content" android:text="RadioButton" android:layout_width="wrap_content"></RadioButton>
+	</RadioGroup>
+	
+	<ToggleButton android:text="ToggleButton" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+	<ProgressBar android:layout_height="wrap_content" android:id="@+id/progressBar1" android:layout_width="wrap_content"></ProgressBar>
+		
+</LinearLayout>
